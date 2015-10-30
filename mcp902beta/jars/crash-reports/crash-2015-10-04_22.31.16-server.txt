@@ -1,0 +1,48 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 10/4/15 10:31 PM
+Description: Exception in server tick loop
+
+java.lang.Error: Unresolved compilation problems: 
+	var8 cannot be resolved
+	var8 cannot be resolved
+	var8 cannot be resolved
+	var8 cannot be resolved
+	var8 cannot be resolved
+	var8 cannot be resolved to a variable
+	var8 cannot be resolved to a variable
+
+	at net.minecraft.item.ItemBow.onPlayerStoppedUsing(ItemBow.java:54)
+	at net.minecraft.item.ItemStack.onPlayerStoppedUsing(ItemStack.java:491)
+	at net.minecraft.entity.player.EntityPlayer.stopUsingItem(EntityPlayer.java:238)
+	at net.minecraft.network.NetHandlerPlayServer.func_147345_a(NetHandlerPlayServer.java:407)
+	at net.minecraft.network.play.client.C07PacketPlayerDigging.func_148833_a(C07PacketPlayerDigging.java:49)
+	at net.minecraft.network.play.client.C07PacketPlayerDigging.func_148833_a(C07PacketPlayerDigging.java:79)
+	at net.minecraft.network.NetworkManager.processReadPackets(NetworkManager.java:196)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:160)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:704)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:599)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:132)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:729)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_60, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 766784784 bytes (731 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 6190 (346640 bytes; 0 MB) allocated, 5770 (323120 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 1473 (82488 bytes; 0 MB) allocated, 1336 (74816 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player562'/536, l='New World', x=-222.31, y=74.49, z=273.02]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated

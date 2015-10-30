@@ -1,0 +1,35 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 10/10/15 1:58 PM
+Description: Exception in server tick loop
+
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+	at java.util.HashMap$KeyIterator.next(Unknown Source)
+	at net.minecraft.entity.EntityTracker.updateTrackedEntities(EntityTracker.java:270)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:695)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:599)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:132)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:729)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_60, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 851715192 bytes (812 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 6382 (357392 bytes; 0 MB) allocated, 5705 (319480 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 2501 (140056 bytes; 0 MB) allocated, 1246 (69776 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player89'/141, l='New World', x=-566.58, y=85.19, z=-97.64]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated

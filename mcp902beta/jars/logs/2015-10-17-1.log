@@ -1,0 +1,125 @@
+[12:43:39] [main/INFO]: Setting user: Player430
+[12:43:39] [main/INFO]: (Session ID is token:0:Player430)
+[12:43:39] [Client thread/INFO]: LWJGL Version: 2.9.0
+[12:43:39] [Client thread/ERROR]: Couldn't set icon
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(Unknown Source) ~[?:1.8.0_60]
+	at net.minecraft.client.Minecraft.readImage(Minecraft.java:649) ~[bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:483) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:891) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:109) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[12:43:39] [Client thread/INFO]: Reloading ResourceManager: Default
+[12:43:40] [Sound Library Loader/INFO]: Sound engine started
+[12:43:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:43:40] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_261_machineBow_pulling_2.png
+java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_261_machineBow_pulling_2.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:62) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:110) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:88) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:86) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:68) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:55) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:592) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:891) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:109) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[12:43:40] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_261_machineBow_pulling_1.png
+java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_261_machineBow_pulling_1.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:62) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:110) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:88) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:86) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:68) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:55) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:592) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:891) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:109) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[12:43:40] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_261_machineBow_pulling_0.png
+java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_261_machineBow_pulling_0.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:62) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:110) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:88) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:86) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:68) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:55) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:592) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:891) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:109) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[12:43:40] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_261_machineBow_standby.png
+java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_261_machineBow_standby.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:62) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:110) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:88) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:86) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:68) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:55) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:592) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:891) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:109) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[12:43:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:43:41] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[12:43:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[12:43:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[12:43:44] [Server thread/INFO]: Generating keypair
+[12:43:44] [Server thread/INFO]: Preparing start region for level 0
+[12:43:45] [Server thread/INFO]: Player430[local:E:7bf7c036] logged in with entity id 456 at (-104.01026364665029, 89.17103374038646, 246.17067306029736)
+[12:43:45] [Server thread/INFO]: Player430 joined the game
+[12:43:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:minecart.base
+[12:43:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:minecart.base
+[12:43:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.game.creative
+[12:43:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:43:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:43:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bowhit
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bowhit
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:43:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:43:59] [Server thread/INFO]: Player430 has just earned the achievement [Taking Inventory]
+[12:43:59] [Client thread/INFO]: [CHAT] Player430 has just earned the achievement [Taking Inventory]
+[12:44:05] [Server thread/INFO]: Saving and pausing game...
+[12:44:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:44:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:44:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:44:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.bow
+[12:44:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.grass
+[12:44:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:14] [Client thread/ERROR]: Item entity 2044 has no item?!
+[12:44:14] [Client thread/ERROR]: Item entity 2044 has no item?!
+[12:44:14] [Client thread/ERROR]: Item entity 2044 has no item?!
+[12:44:14] [Client thread/ERROR]: Item entity 2044 has no item?!
+[12:44:14] [Client thread/ERROR]: Item entity 2044 has no item?!
+[12:44:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.explode
+[12:44:15] [Server thread/INFO]: Saving and pausing game...
+[12:44:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:44:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:44:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End

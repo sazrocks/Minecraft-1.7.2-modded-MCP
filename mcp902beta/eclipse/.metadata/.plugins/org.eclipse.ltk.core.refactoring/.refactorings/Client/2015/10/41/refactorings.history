@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;net.minecraft.item.bow2&apos; to &apos;ItemMachineGunBow&apos;&#x0D;&#x0A;- Original project: &apos;Client&apos;&#x0D;&#x0A;- Original element: &apos;net.minecraft.item.bow2&apos;&#x0D;&#x0A;- Renamed element: &apos;net.minecraft.item.ItemMachineGunBow&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;bow2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;net.minecraft.item{bow2.java[bow2" matchStrategy="1" name="ItemMachineGunBow" qualified="false" references="true" similarDeclarations="false" stamp="1444430620760" textual="false" version="1.0"/>
+</session>
